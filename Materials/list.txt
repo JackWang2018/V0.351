@@ -1,0 +1,94 @@
+uniaxialMaterial Steel01 Material
+uniaxialMaterial Steel02 Material -- Giuffré-Menegotto-Pinto Model with Isotropic Strain Hardening
+uniaxialMaterial Steel4 Material
+uniaxialMaterial Hysteretic Material
+uniaxialMaterial Reinforcing Steel Material
+uniaxialMaterial Dodd Restrepo
+uniaxialMaterial RambergOsgoodSteel Material
+uniaxialMaterial SteelMPF - Menegotto and Pinto (1973) Model Extended by Filippou et al. (1983)
+uniaxialMaterial Concrete01 Material -- Zero Tensile Strength
+uniaxialMaterial Concrete02 Material -- Linear Tension Softening
+uniaxialMaterial Concrete04 Material -- Popovics Concrete Material
+uniaxialMaterial Concrete06 Material
+uniaxialMaterial Concrete07 – Chang & Mander’s 1994 Concrete Model
+uniaxialMaterial Concrete01 Material With Stuff in the Cracks
+uniaxialMaterial ConfinedConcrete01 Material
+uniaxialMaterial ConcreteD
+uniaxialMaterial FRPConfinedConcrete
+uniaxialMaterial ConcreteCM - Complete Concrete Model by Chang and Mander (1994)
+uniaxialMaterial Elastic Uniaxial Material
+uniaxialMaterial Elastic-Perfectly Plastic Material
+uniaxialMaterial Elastic-Perfectly Plastic Gap Material
+uniaxialMaterial Elastic-No Tension Material
+uniaxialMaterial Parallel Material
+uniaxialMaterial Series Material
+uniaxialMaterial CastFuse Material
+uniaxialMaterial ViscousDamper Material
+uniaxialMaterial BilinearOilDamper Material
+uniaxialMaterial Modified Ibarra-Medina-Krawinkler Deterioration Model with Bilinear Hysteretic Response (Bilin Material)
+uniaxialMaterial Modified Ibarra-Medina-Krawinkler Deterioration Model with Peak-Oriented Hysteretic Response (ModIMKPeakOriented Material)
+uniaxialMaterial Modified Ibarra-Medina-Krawinkler Deterioration Model with Pinched Hysteretic Response (ModIMKPinching Material)
+uniaxialMaterial SAWS Material
+uniaxialMaterial BARSLIP Material
+uniaxialMaterial Bond_SP01 - - Strain Penetration Model for Fully Anchored Steel Reinforcing Bars
+uniaxialMaterial Fatigue Material
+uniaxialMaterial Hardening Material
+uniaxialMaterial Impact Material
+uniaxialMaterial Hyperbolic Gap Material
+uniaxialMaterial Limit State Material
+uniaxialMaterial MinMax Material
+uniaxialMaterial ElasticBilin Material
+uniaxialMaterial ElasticMultiLinear Material
+uniaxialMaterial MultiLinear Material
+uniaxialMaterial Initial Strain Material
+uniaxialMaterial Initial Stress Material
+uniaxialMaterial PathIndependent Material
+uniaxialMaterial Pinching4 Material
+uniaxialMaterial Engineered Cementitious Composites Material
+uniaxialMaterial SelfCentering Material
+uniaxialMaterial Viscous Material
+uniaxialMaterial BoucWen Material
+uniaxialMaterial BWBN Material?(Pinching Hysteretic Bouc-Wen Material)
+uniaxialMaterial PySimple1 Material
+uniaxialMaterial TzSimple1 Material
+uniaxialMaterial QzSimple1 Material
+uniaxialMaterial PyLiq1 Material
+uniaxialMaterial TzLiq1 Material
+uniaxialMaterial PySimple1Gen Command
+uniaxialMaterial TzSimple1Gen Command
+uniaxialMaterial KikuchiAikenHDR Material
+uniaxialMaterial KikuchiAikenLRB Material
+uniaxialMaterial AxialSp Material
+uniaxialMaterial AxialSpHD Material
+uniaxialMaterial Pinching Limit State Material
+uniaxialMaterial CFSWSWP Wood-Sheathed Cold-Formed Steel Shear Wall Panel
+uniaxialMaterial CFSSSWP Steel-Sheathed Cold-formed Steel Shear Wall Panel
+nDMaterial Elastic Isotropic Material
+nDMaterial Elastic Orthotropic Material
+nDMaterial J2 Plasticity Material
+nDMaterial Drucker Prager Material
+nDMaterial Concrete Damage Model
+nDMaterial Plane Stress Material
+nDMaterial Plane Strain Material
+nDMaterial Multi Axial Cyclic Plasticity
+nDMaterial Bounding Surface Cam Clay Material
+nDMaterial Plate Fiber Material
+nDMaterial Plane Stress Concrete Materials
+nDMaterial FSAM - 2D RC Panel Constitutive Behavior
+nDMaterial CycLiqCP Material (Cyclic ElasticPlasticity)
+nDMaterial CycLiqCPSP Material
+nDMaterial Manzari Dafalias Material
+nDMaterial Stress Density Material
+nDMaterial PlaneStressUserMaterial
+nDMaterial PlateFromPlaneStress
+nDMaterial PlateRebar
+nDMaterial LayeredShell
+nDMaterial ContactMaterial2D
+nDMaterial ContactMaterial3D
+nDMaterial InitialStateAnalysisWrapper
+nDMaterial UC San Diego soil models (Linear/Nonlinear, dry/drained/undrained soil response under general 2D/3D static/cyclic loading conditions (please visit?UCSD?for examples)
+nDMaterial PressureIndependMultiYield Material
+nDMaterial PressureDependMultiYield Material
+nDMaterial PressureDependMultiYield02 Material
+nDMaterial FluidSolidPorousMaterial
+nDMaterial AcousticMedium
