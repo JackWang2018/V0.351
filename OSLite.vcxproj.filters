@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GuiBase\DialogAbout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogChangeOpenSeesPathBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogColorsAndFontsBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogDonate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogImportDxfBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogModelerWizardBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogQuickMaterialBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogSectionPropertiesBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\MainWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\drw_dbg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\drw_textcodec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgbuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader18.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgutil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dxfreader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\dxfwriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\intern\rscodec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\drw_classes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\drw_entities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\drw_header.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\drw_objects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\libdwgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\libdxfrw\libdxfrw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogChangeOpenSeesPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogColorsAndFonts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogImportDxf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogModelerWizard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogQuickMaterial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSectionProperties.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DxfInterFace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TclInterFace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VtkWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wxVTKRenderWindowInteractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoComplete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogRealTimeMonitorDeformBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogRealTimeMonitorDeform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogSetAnalysisOpintionBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSetAnalysisOpintion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiBase\DialogShowDeformedBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogShowDeformed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadAnalyze.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OSLiteConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GuiBase\DialogAbout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogChangeOpenSeesPathBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogColorsAndFontsBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogDonate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogImportDxfBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogModelerWizardBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogQuickMaterialBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogSectionPropertiesBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\MainWin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable932.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable936.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable949.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable950.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_dbg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_textcodec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader18.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader24.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader27.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dxfreader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\dxfwriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\intern\rscodec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_classes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_entities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\drw_objects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\libdwgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\libdxfrw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\libdxfrw\main_doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogChangeOpenSeesPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogColorsAndFonts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogImportDxf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogModelerWizard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogQuickMaterial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSectionProperties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DxfData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DxfInterFace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TclInterFace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VtkWin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wxVTKRenderWindowInteractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoComplete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogRealTimeMonitorDeformBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogRealTimeMonitorDeform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogSetAnalysisOpintionBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSetAnalysisOpintion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiBase\DialogShowDeformedBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogShowDeformed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadAnalyze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSLiteConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeclareUserEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineUserEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="发布.bat">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="wx\msw\hand.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\bullseye.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\pencil.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\magnif1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\roller.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\pbrush.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\pntleft.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\pntright.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\blank.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="wx\msw\cross.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="GuiBase\DialogRealTimeMonitorDeformBase.fbp" />
+    <None Include="GuiBase\DialogSetAnalysisOpintionBase.fbp" />
+    <None Include="GuiBase\MainWin - 副本 - 副本.fbp" />
+    <None Include="GuiBase\DialogShowDeformedBase.fbp" />
+    <None Include="GuiBase\MainWin.fbp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wx\msw\std.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\folder1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\folder2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\file1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\computer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\drive.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\cdrom.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\floppy.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\removble.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Icon\OSLite.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\csquery.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\colours.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wx\msw\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

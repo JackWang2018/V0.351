@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B16AE4B-22B3-4F07-AD0D-F4C807D4BBA0}</ProjectGuid>
+    <RootNamespace>OSLite</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\DEV\lib\wx_3.1_vc14\include;D:\DEV\lib\wx_3.1_vc14\lib\vc_lib\mswu;C:\Tcl\include;D:\DEV\lib\VTK_VC_14\include\vtk-7.1;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\DEV\lib\wx_3.1_vc14\lib\vc_lib;C:\Tcl\lib;D:\DEV\lib\VTK_VC_14\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>.\Bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>__WXMSW__;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>tcl85.lib;wxbase31u.lib  ;wxbase31u_net.lib  ;wxbase31u_xml.lib  ;wxexpat.lib  ;wxjpeg.lib  ;wxmsw31u_adv.lib  ;wxmsw31u_aui.lib  ;wxmsw31u_core.lib  ;wxmsw31u_gl.lib  ;wxmsw31u_html.lib  ;wxmsw31u_media.lib  ;wxmsw31u_propgrid.lib  ;wxmsw31u_qa.lib  ;wxmsw31u_ribbon.lib  ;wxmsw31u_richtext.lib  ;wxmsw31u_stc.lib  ;wxmsw31u_webview.lib  ;wxmsw31u_xrc.lib  ;wxpng.lib  ;wxregexu.lib  ;wxscintilla.lib  ;wxtiff.lib  ;wxzlib.lib  ;comctl32.lib  ;rpcrt4.lib  ;wsock32.lib  ;odbc32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;comctl32.lib;vfw32.lib;ws2_32.lib;wsock32.lib;opengl32.lib;vtkalglib-7.1.lib;vtkChartsCore-7.1.lib;vtkCommonColor-7.1.lib;vtkCommonComputationalGeometry-7.1.lib;vtkCommonCore-7.1.lib;vtkCommonDataModel-7.1.lib;vtkCommonExecutionModel-7.1.lib;vtkCommonMath-7.1.lib;vtkCommonMisc-7.1.lib;vtkCommonSystem-7.1.lib;vtkCommonTransforms-7.1.lib;vtkDICOMParser-7.1.lib;vtkDomainsChemistry-7.1.lib;vtkexoIIc-7.1.lib;vtkexpat-7.1.lib;vtkFiltersAMR-7.1.lib;vtkFiltersCore-7.1.lib;vtkFiltersExtraction-7.1.lib;vtkFiltersFlowPaths-7.1.lib;vtkFiltersGeneral-7.1.lib;vtkFiltersGeneric-7.1.lib;vtkFiltersGeometry-7.1.lib;vtkFiltersHybrid-7.1.lib;vtkFiltersHyperTree-7.1.lib;vtkFiltersImaging-7.1.lib;vtkFiltersModeling-7.1.lib;vtkFiltersParallel-7.1.lib;vtkFiltersParallelImaging-7.1.lib;vtkFiltersPoints-7.1.lib;vtkFiltersProgrammable-7.1.lib;vtkFiltersSelection-7.1.lib;vtkFiltersSMP-7.1.lib;vtkFiltersSources-7.1.lib;vtkFiltersStatistics-7.1.lib;vtkFiltersTexture-7.1.lib;vtkFiltersVerdict-7.1.lib;vtkfreetype-7.1.lib;vtkGeovisCore-7.1.lib;vtkgl2ps-7.1.lib;vtkhdf5-7.1.lib;vtkhdf5_hl-7.1.lib;vtkImagingColor-7.1.lib;vtkImagingCore-7.1.lib;vtkImagingFourier-7.1.lib;vtkImagingGeneral-7.1.lib;vtkImagingHybrid-7.1.lib;vtkImagingMath-7.1.lib;vtkImagingMorphological-7.1.lib;vtkImagingSources-7.1.lib;vtkImagingStatistics-7.1.lib;vtkImagingStencil-7.1.lib;vtkInfovisCore-7.1.lib;vtkInfovisLayout-7.1.lib;vtkInteractionImage-7.1.lib;vtkInteractionStyle-7.1.lib;vtkInteractionWidgets-7.1.lib;vtkIOAMR-7.1.lib;vtkIOCore-7.1.lib;vtkIOEnSight-7.1.lib;vtkIOExodus-7.1.lib;vtkIOExport-7.1.lib;vtkIOGeometry-7.1.lib;vtkIOImage-7.1.lib;vtkIOImport-7.1.lib;vtkIOInfovis-7.1.lib;vtkIOLegacy-7.1.lib;vtkIOLSDyna-7.1.lib;vtkIOMINC-7.1.lib;vtkIOMovie-7.1.lib;vtkIONetCDF-7.1.lib;vtkIOParallel-7.1.lib;vtkIOParallelXML-7.1.lib;vtkIOPLY-7.1.lib;vtkIOSQL-7.1.lib;vtkIOTecplotTable-7.1.lib;vtkIOVideo-7.1.lib;vtkIOXML-7.1.lib;vtkIOXMLParser-7.1.lib;vtkjpeg-7.1.lib;vtkjsoncpp-7.1.lib;vtklibxml2-7.1.lib;vtkmetaio-7.1.lib;vtkNetCDF-7.1.lib;vtkNetCDF_cxx-7.1.lib;vtkoggtheora-7.1.lib;vtkParallelCore-7.1.lib;vtkpng-7.1.lib;vtkproj4-7.1.lib;vtkRenderingAnnotation-7.1.lib;vtkRenderingContext2D-7.1.lib;vtkRenderingContextOpenGL-7.1.lib;vtkRenderingCore-7.1.lib;vtkRenderingFreeType-7.1.lib;vtkRenderingGL2PS-7.1.lib;vtkRenderingImage-7.1.lib;vtkRenderingLabel-7.1.lib;vtkRenderingLIC-7.1.lib;vtkRenderingLOD-7.1.lib;vtkRenderingOpenGL-7.1.lib;vtkRenderingVolume-7.1.lib;vtkRenderingVolumeOpenGL-7.1.lib;vtksqlite-7.1.lib;vtksys-7.1.lib;vtktiff-7.1.lib;vtkverdict-7.1.lib;vtkViewsContext2D-7.1.lib;vtkViewsCore-7.1.lib;vtkViewsInfovis-7.1.lib;vtkzlib-7.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <MinimumRequiredVersion>
+      </MinimumRequiredVersion>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ComFunc.cpp" />
+    <ClCompile Include="DialogChangeOpenSeesPath.cpp" />
+    <ClCompile Include="DialogColorsAndFonts.cpp" />
+    <ClCompile Include="DialogImportDxf.cpp" />
+    <ClCompile Include="DialogModelerWizard.cpp" />
+    <ClCompile Include="DialogQuickMaterial.cpp" />
+    <ClCompile Include="DialogSectionProperties.cpp" />
+    <ClCompile Include="DialogRealTimeMonitorDeform.cpp" />
+    <ClCompile Include="DialogSetAnalysisOpintion.cpp" />
+    <ClCompile Include="DialogShowDeformed.cpp" />
+    <ClCompile Include="DxfInterFace.cpp" />
+    <ClCompile Include="OSLiteConfig.cpp" />
+    <ClCompile Include="GuiBase\DialogAbout.cpp" />
+    <ClCompile Include="GuiBase\DialogChangeOpenSeesPathBase.cpp" />
+    <ClCompile Include="GuiBase\DialogColorsAndFontsBase.cpp" />
+    <ClCompile Include="GuiBase\DialogDonate.cpp" />
+    <ClCompile Include="GuiBase\DialogImportDxfBase.cpp" />
+    <ClCompile Include="GuiBase\DialogModelerWizardBase.cpp" />
+    <ClCompile Include="GuiBase\DialogQuickMaterialBase.cpp" />
+    <ClCompile Include="GuiBase\DialogSectionPropertiesBase.cpp" />
+    <ClCompile Include="GuiBase\DialogRealTimeMonitorDeformBase.cpp" />
+    <ClCompile Include="GuiBase\DialogSetAnalysisOpintionBase.cpp" />
+    <ClCompile Include="GuiBase\DialogShowDeformedBase.cpp" />
+    <ClCompile Include="GuiBase\MainWin.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\drw_classes.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\drw_entities.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\drw_header.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\drw_objects.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\drw_dbg.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\drw_textcodec.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgbuffer.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader15.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader18.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader21.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader24.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgreader27.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dwgutil.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dxfreader.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\dxfwriter.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\intern\rscodec.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\libdwgr.cpp" />
+    <ClCompile Include="Libraries\libdxfrw\libdxfrw.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ModelData.cpp" />
+    <ClCompile Include="ThreadAnalyze.cpp" />
+    <ClCompile Include="TclInterFace.cpp" />
+    <ClCompile Include="AutoComplete.cpp" />
+    <ClCompile Include="VtkWin.cpp" />
+    <ClCompile Include="wxVTKRenderWindowInteractor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ComFunc.h" />
+    <ClInclude Include="DeclareUserEvent.h" />
+    <ClInclude Include="DefineUserEvent.h" />
+    <ClInclude Include="DialogChangeOpenSeesPath.h" />
+    <ClInclude Include="DialogColorsAndFonts.h" />
+    <ClInclude Include="DialogImportDxf.h" />
+    <ClInclude Include="DialogModelerWizard.h" />
+    <ClInclude Include="DialogQuickMaterial.h" />
+    <ClInclude Include="DialogSectionProperties.h" />
+    <ClInclude Include="DialogRealTimeMonitorDeform.h" />
+    <ClInclude Include="DialogSetAnalysisOpintion.h" />
+    <ClInclude Include="DialogShowDeformed.h" />
+    <ClInclude Include="DxfData.h" />
+    <ClInclude Include="DxfInterFace.h" />
+    <ClInclude Include="OSLiteConfig.h" />
+    <ClInclude Include="GuiBase\DialogAbout.h" />
+    <ClInclude Include="GuiBase\DialogChangeOpenSeesPathBase.h" />
+    <ClInclude Include="GuiBase\DialogColorsAndFontsBase.h" />
+    <ClInclude Include="GuiBase\DialogDonate.h" />
+    <ClInclude Include="GuiBase\DialogImportDxfBase.h" />
+    <ClInclude Include="GuiBase\DialogModelerWizardBase.h" />
+    <ClInclude Include="GuiBase\DialogQuickMaterialBase.h" />
+    <ClInclude Include="GuiBase\DialogSectionPropertiesBase.h" />
+    <ClInclude Include="GuiBase\DialogRealTimeMonitorDeformBase.h" />
+    <ClInclude Include="GuiBase\DialogSetAnalysisOpintionBase.h" />
+    <ClInclude Include="GuiBase\DialogShowDeformedBase.h" />
+    <ClInclude Include="GuiBase\MainWin.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_base.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_classes.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_entities.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_header.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_interface.h" />
+    <ClInclude Include="Libraries\libdxfrw\drw_objects.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable932.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable936.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable949.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptable950.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_cptables.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_dbg.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\drw_textcodec.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgbuffer.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader15.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader18.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader21.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader24.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgreader27.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dwgutil.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dxfreader.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\dxfwriter.h" />
+    <ClInclude Include="Libraries\libdxfrw\intern\rscodec.h" />
+    <ClInclude Include="Libraries\libdxfrw\libdwgr.h" />
+    <ClInclude Include="Libraries\libdxfrw\libdxfrw.h" />
+    <ClInclude Include="Libraries\libdxfrw\main_doc.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="ModelData.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ThreadAnalyze.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="TclInterFace.h" />
+    <ClInclude Include="AutoComplete.h" />
+    <ClInclude Include="VtkWin.h" />
+    <ClInclude Include="wxVTKRenderWindowInteractor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GuiBase\DialogRealTimeMonitorDeformBase.fbp" />
+    <None Include="GuiBase\DialogSetAnalysisOpintionBase.fbp" />
+    <None Include="GuiBase\DialogShowDeformedBase.fbp" />
+    <None Include="GuiBase\MainWin - 副本 - 副本.fbp" />
+    <None Include="GuiBase\MainWin.fbp" />
+    <None Include="wx\msw\blank.cur" />
+    <None Include="wx\msw\bullseye.cur" />
+    <None Include="wx\msw\cross.cur" />
+    <None Include="wx\msw\hand.cur" />
+    <None Include="wx\msw\magnif1.cur" />
+    <None Include="wx\msw\pbrush.cur" />
+    <None Include="wx\msw\pencil.cur" />
+    <None Include="wx\msw\pntleft.cur" />
+    <None Include="wx\msw\pntright.cur" />
+    <None Include="wx\msw\roller.cur" />
+    <None Include="发布.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon\OSLite.ico" />
+    <Image Include="wx\msw\cdrom.ico" />
+    <Image Include="wx\msw\colours.bmp" />
+    <Image Include="wx\msw\computer.ico" />
+    <Image Include="wx\msw\csquery.bmp" />
+    <Image Include="wx\msw\drive.ico" />
+    <Image Include="wx\msw\file1.ico" />
+    <Image Include="wx\msw\floppy.ico" />
+    <Image Include="wx\msw\folder1.ico" />
+    <Image Include="wx\msw\folder2.ico" />
+    <Image Include="wx\msw\icon1.ico" />
+    <Image Include="wx\msw\removble.ico" />
+    <Image Include="wx\msw\std.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
