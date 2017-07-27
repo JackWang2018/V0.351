@@ -1,0 +1,388 @@
+# Simplified Chinese Messages for OSLite
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OSLite\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "File  "
+msgstr "文件  "
+
+msgid "New Model..."
+msgstr "新建..."
+
+msgid "Open..."
+msgstr "打开..."
+
+msgid "Open file"
+msgstr "打开文件"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save As..."
+msgstr "另存为..."
+
+msgid "Import from AutoCAD .dxf file"
+msgstr "导入dxf文件"
+
+msgid "Import Dxf"
+msgstr "导入dxf文件"
+
+msgid "Export node and element"
+msgstr "导出节点单元"
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Edit  "
+msgstr "编辑  "
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Redo"
+msgstr "恢复"
+
+msgid "Cut"
+msgstr "剪切"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Paste"
+msgstr "粘贴"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Goto"
+msgstr "跳转"
+
+msgid "Find"
+msgstr "查找"
+
+msgid "Replace"
+msgstr "替换"
+
+msgid "Find and replace"
+msgstr "查找并替换"
+
+msgid "Comment Selection"
+msgstr "注释"
+
+msgid "Un-Comment Selection"
+msgstr "取消注释"
+
+msgid "View  "
+msgstr "视图  "
+
+msgid "Wrap mode"
+msgstr "自动断行"
+
+msgid "Show line numbers"
+msgstr "显示行号"
+
+msgid "Show long line marker"
+msgstr "显示行标记"
+
+msgid "Define  "
+msgstr "定义  "
+
+msgid "Materials"
+msgstr "材料"
+
+msgid "Section Properties"
+msgstr "截面定义"
+
+msgid "Draw  "
+msgstr "绘图  "
+
+msgid "Select  "
+msgstr "选择  "
+
+msgid "Assign  "
+msgstr "指定  "
+
+msgid "Analyze  "
+msgstr "分析  "
+
+msgid "Set Analyze Opition..."
+msgstr "设置分析选项..."
+
+msgid "Analysis Options"
+msgstr "分析选项..."
+
+msgid "Recorder Setting"
+msgstr "输出结果"
+
+msgid "RealTime Monitor"
+msgstr "实时显示"
+
+msgid "Shape"
+msgstr "位移"
+
+msgid "Scale Factor"
+msgstr "比例系数"
+
+msgid "Run"
+msgstr "运行"
+
+msgid "Run Analysis"
+msgstr "运行分析"
+
+msgid "Stop Analysis"
+msgstr "停止分析"
+
+msgid "Display  "
+msgstr "显示  "
+
+msgid "Show Model"
+msgstr "显示模型"
+
+msgid "Show Deformed Shape..."
+msgstr "显示变形..."
+
+msgid "Show Forces/Stresses"
+msgstr "显示内力/应力"
+
+msgid "Options  "
+msgstr "选项  "
+
+msgid "Change OpenSees.exe Path"
+msgstr "设置OpenSees.exe路径"
+
+msgid "Auto Complete"
+msgstr "自动补全"
+
+msgid "Colors and fonts"
+msgstr "颜色和字体"
+
+msgid "Help  "
+msgstr "帮助  "
+
+msgid "Donate"
+msgstr "赞助"
+
+msgid ""
+"     Please consider making a donation to support the OSLite project; \n"
+"we appreciate any amount. Your donation will help us to improve the \n"
+" program in the future. You can choose a donation method:"
+msgstr ""
+"     请通过捐赠的方式来支持 OSLite 项目，\n"
+"任何数额都将获得我们真心的感谢，这将是未来改进本程序的推动力。\n"
+"您可以选择如下捐赠方法："
+
+msgid "Donate XXXXXXX"
+msgstr ""
+"    请通过捐赠的方式来支持 OSLite 项目,任何数额都将获得我们真心的感谢,\n"
+"这将是未来改进本程序的推动力。您可以选择如下捐赠方法:"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Rectangular"
+msgstr "矩形"
+
+msgid "Circular"
+msgstr "圆形"
+
+msgid "I/Wide Flange"
+msgstr "I形截面"
+
+msgid "Tee"
+msgstr "T形截面"
+
+msgid "Select Template"
+msgstr "选择模板"
+
+msgid "Blank"
+msgstr "空"
+
+msgid "Beam"
+msgstr "梁"
+
+msgid "2D Trusses"
+msgstr "二维桁架"
+
+msgid "3D Trusses"
+msgstr "三维桁架"
+
+msgid "2D Frames"
+msgstr "二维框架"
+
+msgid "3D Frames"
+msgstr "三维框架"
+
+msgid "Pushover"
+msgstr "Pushover"
+
+msgid "Import Information"
+msgstr "DXF导入"
+
+msgid "Input file"
+msgstr "文件"
+
+msgid "Assign Layers"
+msgstr "指定层"
+
+msgid "Special Joints"
+msgstr "节点"
+
+msgid "Line"
+msgstr "框架"
+
+msgid "NL Links"
+msgstr "非线性链接"
+
+msgid "Shells"
+msgstr "壳"
+
+msgid "Solid"
+msgstr "实体"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "确认"
+
+msgid "AliPay"
+msgstr "支付宝"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Point"
+msgstr "节点"
+
+msgid "Line Element"
+msgstr "框架单元"
+
+msgid "Shell Element"
+msgstr "壳单元"
+
+msgid "Solid Element"
+msgstr "实体单元"
+
+msgid "Link Element"
+msgstr "链接单元"
+
+msgid "MP Constraint"
+msgstr "MP Constraint"
+
+msgid "Model Text"
+msgstr "模型字体"
+
+msgid "Edge"
+msgstr "轮廓"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Fonts"
+msgstr "字体"
+
+msgid "Code Font"
+msgstr "代码字体"
+
+msgid "Model Font"
+msgstr "模型字体"
+
+msgid "Output Font"
+msgstr "输出字体"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Line Width"
+msgstr "线宽"
+
+msgid "Point Size"
+msgstr "点大小"
+
+msgid "About OSLite"
+msgstr "关于OSLite"
+
+msgid "Version:"
+msgstr "版本号:"
+
+msgid "Date:"
+msgstr "日期:"
+
+msgid "Author Et developer:"
+msgstr "开发者:"
+
+msgid "Web-site:"
+msgstr "网址:"
+
+msgid "E-mail:"
+msgstr "E-mail:"
+
+msgid "Please create KeyWords!"
+msgstr "在Bin目录下未找到KeyWords.txt文件!"
+
+msgid "Jacques.Chen | Welcome to my Website http://blog.whchen.net"
+msgstr "Jacques.Chen | Welcome to my Website http://blog.whchen.net"
+
+msgid "Save the current file?"
+msgstr "是否保存当前文件?"
+
+msgid "Error opening template file"
+msgstr "无法打开模板"
+
+msgid "Error opening file"
+msgstr "无法打开文件"
+
+msgid "Current OpenSees.exe at "
+msgstr "当前OpenSees.exe路径为 "
+
+msgid "Note"
+msgstr "注意"
+
+msgid "Line(L):"
+msgstr "行号(L):"
+
+msgid "Select Opensees.exe"
+msgstr "选择Opensees.exe文件"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Code"
+msgstr "代码"
+
+msgid "Model View"
+msgstr "模型"
+
+msgid "Output View"
+msgstr "输出"
+
+msgid "Real Time Monitor Deform"
+msgstr "实时位移显示"
+
+msgid "Analysis Opintion..."
+msgstr "设置分析选项..."
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Host"
+msgstr "IP地址"
